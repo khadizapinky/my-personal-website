@@ -1,0 +1,138 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height:600px;
+}
+h1{
+    font-size:40px;
+}
+p{
+    color:grey;
+}
+
+/* header_area */
+.header_area{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    height:550px;
+    background-position: cover;
+    background-size: 100% 100%;
+    padding-bottom:50px;
+  
+}
+.left_side{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+    padding-top:60px;
+    
+  
+}
+.left_side .name{
+    font-size:50px;
+    color: #b24592;
+    font-weight: 700;
+}
+.right_side{
+    width:40%;
+    float:right;
+   
+}
+.right_side img{
+   width:350px;
+   
+}
+ .link_button{
+    color:white;
+    padding:10px 30px;
+    background: linear-gradient(to right, #b24592, #f15f79);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+   
+   
+}
+
+
+/* bio_area */
+
+.bio_area{
+    background-image:url("images/biography-bg.png");
+    background-repeat:no-repeat;
+    height:600px;
+    background-position: cover;
+    background-size: 100% 100%;
+}
+.left_side img{
+    width:300px;
+ }
+ .right_side{
+     margin-top:120px;
+     padding-right:2%;
+ }
+
+
+ /* work_area */
+.work_area{
+   padding-top:100px;
+   height:550px;
+   background-image: url("images/latest-work-bg.png");
+   background-repeat: no-repeat;
+   background-position: cover;
+   background-size: 100% 100%;
+   text-align:center;
+   text-transform: capitalize;
+}
+.works{
+    padding-top:60px;
+   
+}
+.works img{
+    width:350px;
+    padding-left:60px;
+   
+}
+
+
+/* client_area */
+.client_area{
+    background-image:url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+}
+.client{
+    margin-left:400px;
+    text-align:center;
+    width:550px;
+    text-transform: capitalize;
+  
+}
+.msg_button{
+    width:750px;
+    height:150px;
+    background: linear-gradient(to right, #b24592, #f15f79);
+    margin-left:300px;
+    text-align:center;
+    padding-top:30px;
+    margin-top:50px;
+    border-radius: 10px;
+    color:white;
+}
+.msg_button p{
+    color:white;
+}
+.msg_button a{
+    text-decoration: none;
+    color:white;
+    font-size:35px;
+}
+
+/* footer_area */
+footer p{
+    text-align:center;
+    text-transform: capitalize;
+}
