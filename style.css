@@ -96,6 +96,35 @@ p{
 
 
 
+/* services_area */
+.services_area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+    text-align:center;
+    text-transform: capitalize;
+    height:600px;
+    
+}
+.services {
+  display:inline;
+}
+.services h1{
+    padding-top:50px;
+    padding-bottom:30px;
+}
+.first_ser{
+    width:25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:300px;
+    float:left;
+    margin-left:5%;
+    border-left: 8px solid #b24592;
+    border-right: 8px solid #b24592;
+}
+
+
 /* client_area */
 .client_area{
     background-image:url("images/footer-bg.png");
@@ -130,6 +159,9 @@ p{
     color:white;
     font-size:35px;
 }
+
+
+
 
 /* footer_area */
 footer p{
